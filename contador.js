@@ -34,7 +34,7 @@ function novaData() {
   //mostrar a diferença (subtração) e divide pela viariavel day
     document.getElementById('dia').innerHTML = Math.floor(subtracao / day);
     // retorna o menor número inteiro  restante da divisão (diferença de horas que faltam e variavel dia) dividido por 1 hora
-    document.getElementById('hora').innerHTML = Math.floor(subtracao % day / 3600);
+    document.getElementById('hora').innerHTML = Math.floor(subtracao % day / hour);
        // retorna o menor número inteiro  restante da divisão (diferença que falta até a data definida e variavel hora ) dividido por 1 minuto
     document.getElementById('minuto').innerHTML = Math.floor(subtracao % hour / minute);
        // retorna o menor número inteiro  restante da divisão (diferença que falta até a data definida e variavel minuto) dividido por 1 segundo
